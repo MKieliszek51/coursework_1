@@ -1,7 +1,8 @@
 import java.util.Scanner;
+
 class Dec2Hex
 {
-    private static int Arg1;
+    public static int Arg1;
     public static void main(String args[])
     {
 		if (args.length > 0) //checking for arguments
