@@ -23,7 +23,7 @@ class Dec2Hex
 		else if (args.length == 0)
 		{
 			System.out.println("Please provide an input argument!");
-			System.exit(1);
+			System.exit(0);
 		}
 
 		char ch[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};
