@@ -4,7 +4,6 @@ class Dec2Hex
     private static int Arg1;
     public static void main(String args[])
     {
-		Scanner sc = new Scanner(System.in);
 		if (args.length > 0) 
 		{
 			try 
@@ -19,7 +18,7 @@ class Dec2Hex
 		}
 		else if (args.length == 0)
 		{
-			System.err.println("Please provide an input argument!");
+			System.out.println("Please provide an input argument!");
 			System.exit(0);
 		}
 
