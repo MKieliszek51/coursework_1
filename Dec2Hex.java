@@ -10,7 +10,6 @@ class Dec2Hex
 			try 
 			{
 				Arg1 = Integer.parseInt(args[0]);
-				notNull = true;
 			} 
 			catch (NumberFormatException e) 
 			{
@@ -39,7 +38,6 @@ class Dec2Hex
 		
 		
 		System.out.println("Hexadecimal representation is : " + hexadecimal);
-		notNull = true;
 		System.exit(0);
 	}
 		
