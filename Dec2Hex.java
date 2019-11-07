@@ -13,7 +13,7 @@ class Dec2Hex
 			catch (NumberFormatException e)  //checking if input is an integer
 			{
 				System.err.println("Argument" + args[0] + " must be an integer.");
-				System.exit(1); //close application
+				System.exit(0); //close application
 			}
 		}
 		else if (args.length == 0) //checking for lack of arguments
