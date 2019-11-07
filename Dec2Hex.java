@@ -2,8 +2,8 @@ import java.util.Scanner;
 class Dec2Hex
 {
 
-    public static int Arg1;
-	public static boolean notNull = false;
+    private static int Arg1;
+	private static boolean notNull = false;
     public static void main(String args[])
     {
 		Scanner sc = new Scanner(System.in);
