@@ -1,9 +1,7 @@
 import java.util.Scanner;
 class Dec2Hex
 {
-
     private static int Arg1;
-	private static boolean notNull = false;
     public static void main(String args[])
     {
 		Scanner sc = new Scanner(System.in);
@@ -43,7 +41,6 @@ class Dec2Hex
 		System.out.println("Hexadecimal representation is : " + hexadecimal);
 		notNull = true;
 		System.exit(0);
-
 	}
 		
 }
