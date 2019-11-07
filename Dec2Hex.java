@@ -22,7 +22,7 @@ class Dec2Hex
 		}
 		else if (args.length == 0)
 		{
-			System.out.println("Please provide an input argument!");
+			System.err.println("Please provide an input argument!");
 			System.exit(0);
 		}
 
