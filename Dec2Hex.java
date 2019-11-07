@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//The aim of this application is to take a decimal value from a console argument, and convert it into a hexadecimal value.
 class Dec2Hex
 {
     public static int Arg1;
@@ -7,6 +7,7 @@ class Dec2Hex
     {
 		if (args.length > 0) //checking for arguments
 		{
+			//error handling
 			try 
 			{
 				Arg1 = Integer.parseInt(args[0]); //setting Arg1 to value of the first argument
